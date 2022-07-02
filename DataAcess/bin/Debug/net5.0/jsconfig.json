@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "Test": "server=21AK22-COM; database=PRN211_DB_ASM;user=sa;password=123"
+  }
+}

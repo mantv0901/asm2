@@ -1,0 +1,16 @@
+D:\lap trinh web\Asm2\DataAcess\bin\Debug\net5.0\jsconfig.json
+D:\lap trinh web\Asm2\DataAcess\bin\Debug\net5.0\DataAcess.deps.json
+D:\lap trinh web\Asm2\DataAcess\bin\Debug\net5.0\DataAcess.dll
+D:\lap trinh web\Asm2\DataAcess\bin\Debug\net5.0\DataAcess.pdb
+D:\lap trinh web\Asm2\DataAcess\bin\Debug\net5.0\BusinessLayer.dll
+D:\lap trinh web\Asm2\DataAcess\bin\Debug\net5.0\BusinessLayer.pdb
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.csproj.AssemblyReference.cache
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.AssemblyInfoInputs.cache
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.AssemblyInfo.cs
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.csproj.CoreCompileInputs.cache
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.csproj.CopyComplete
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.dll
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\refint\DataAcess.dll
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\DataAcess.pdb
+D:\lap trinh web\Asm2\DataAcess\obj\Debug\net5.0\ref\DataAcess.dll
