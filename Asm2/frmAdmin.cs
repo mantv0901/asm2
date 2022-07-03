@@ -16,5 +16,13 @@ namespace Asm2
         {
             InitializeComponent();
         }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            frmOrderManagement frmOrder = new frmOrderManagement();
+            this.Hide();
+            frmOrder.ShowDialog();
+            this.Close();
+        }
     }
 }

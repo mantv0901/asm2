@@ -11,7 +11,8 @@ namespace DataAccess.Repository
     public interface IOrderRepository
     {
         Order GetOrder(int id);
-        IEnumerable<Order> GetOrders(Expression<Func<Order, bool>> ex);
+        IEnumerable<Order> GetAllOrders();
+        IEnumerable<Order> GetOrdersBy(Expression<Func<Order, bool>> ex);
         void Create(Order order);
         void Update(Order order);
         void Delete(int id);

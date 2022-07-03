@@ -33,9 +33,14 @@ namespace DataAccess.Repository
             return context.Orders.FirstOrDefault(x => x.OrderId == id);
         }
 
-        public IEnumerable<Order> GetOrders(Expression<Func<Order, bool>> ex)
+        public IEnumerable<Order> GetAllOrders()
         {
-            return context.Orders.Where(ex);
+            return context.Orders.ToList();
+        }
+
+        public IEnumerable<Order> GetOrdersBy(Expression<Func<Order, bool>> ex)
+        {
+            return context.Orders.Where(ex).ToList();
         }
 
         public void Update(Order order)

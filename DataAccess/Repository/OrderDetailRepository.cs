@@ -21,5 +21,23 @@ namespace DataAccess.Repository
             context.OrderDetails.Add(orderDetail);
             context.SaveChanges();
         }
+
+        public OrderDetail GetOrderDetail(int orderId)
+        {
+            return context.OrderDetails.FirstOrDefault(x => x.OrderId == orderId);
+        }
+
+        public void Delete(int orderId)
+        {
+            OrderDetail orderDetail = GetOrderDetail(orderId);
+            orderDetail.Status = false;
+            Update(orderDetail);
+        }
+
+        public void Update(OrderDetail orderDetail)
+        {
+            context.Update(orderDetail);
+            context.SaveChanges(true);
+        }
     }
 }

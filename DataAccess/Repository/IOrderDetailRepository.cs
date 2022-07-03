@@ -12,6 +12,9 @@ namespace DataAccess.Repository
     public interface IOrderDetailRepository
     {
         void Create(OrderDetail orderDetail);
+        OrderDetail GetOrderDetail(int orderId);
+        void Delete(int orderId);
+        void Update(OrderDetail orderDetail);
 
     }
 }
