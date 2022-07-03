@@ -60,5 +60,13 @@ namespace Asm2
             else btnCreateOrder.Enabled = true;
             btnCreateOrder.Enabled = false;
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frmPickMember form = new frmPickMember();
+            this.Hide();
+            form.ShowDialog();
+            this.Close();
+        }
     }
 }

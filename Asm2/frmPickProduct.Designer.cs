@@ -38,6 +38,7 @@
             this.txtMemberID = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
+            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,11 +126,22 @@
             this.txtEmail.Size = new System.Drawing.Size(181, 23);
             this.txtEmail.TabIndex = 9;
             // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(336, 374);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(64, 28);
+            this.btnBack.TabIndex = 10;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // frmPickProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(530, 414);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMemberID);
@@ -161,5 +173,6 @@
         private System.Windows.Forms.TextBox txtMemberID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Button btnBack;
     }
 }
