@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataAccess.Repository;
 using BusinessLayer.Models;
-
+using SaleManagerment;
 namespace Asm2
 {
     internal static class Program
@@ -23,7 +23,7 @@ namespace Asm2
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new Form1());
         }
     }
 }

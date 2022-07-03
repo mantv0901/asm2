@@ -63,3 +63,4 @@ C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.frmPickM
 C:\Users\acern\source\repos\asm\Asm2\Asm2\bin\Debug\net5.0-windows\Humanizer.dll
 C:\Users\acern\source\repos\asm\Asm2\Asm2\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.frmPickProduct.resources
+C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\SaleManagerment.Form1.resources
