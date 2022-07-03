@@ -15,6 +15,10 @@ namespace DataAccess.Repository
             context = new PRN211_DB_ASMContext();
         }
 
+        public int GetMax()
+        {
+            return context.Orders.Max(x => x.OrderId);
+        }
         public void Create(Order order)
         {
             context.Orders.Add(order);
@@ -35,7 +39,7 @@ namespace DataAccess.Repository
 
         public IEnumerable<Order> GetAllOrders()
         {
-            return context.Orders.ToList();
+            return context.Orders.Where(x=> x.Status == true).ToList();
         }
 
         public IEnumerable<Order> GetOrdersBy(Expression<Func<Order, bool>> ex)

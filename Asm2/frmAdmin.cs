@@ -22,7 +22,7 @@ namespace Asm2
             frmOrderManagement frmOrder = new frmOrderManagement();
             this.Hide();
             frmOrder.ShowDialog();
-            this.Close();
+            
         }
     }
 }

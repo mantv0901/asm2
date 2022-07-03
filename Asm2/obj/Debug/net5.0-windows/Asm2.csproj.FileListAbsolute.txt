@@ -58,3 +58,8 @@ C:\Users\acern\source\repos\asm\Asm2\Asm2\bin\Debug\net5.0-windows\BusinessLayer
 C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.frmAdmin.resources
 C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.frmMember.resources
 C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.csproj.CopyComplete
+C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.frmOrderManagement.resources
+C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.frmPickMember.resources
+C:\Users\acern\source\repos\asm\Asm2\Asm2\bin\Debug\net5.0-windows\Humanizer.dll
+C:\Users\acern\source\repos\asm\Asm2\Asm2\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\acern\source\repos\asm\Asm2\Asm2\obj\Debug\net5.0-windows\Asm2.frmPickProduct.resources

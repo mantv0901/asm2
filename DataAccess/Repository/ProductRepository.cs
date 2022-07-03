@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinessLayer.Models;
 using System.Linq.Expressions;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Repository
 {
@@ -18,12 +18,15 @@ namespace DataAccess.Repository
         }
         public Product GetProduct(int id)
         {
-            return context.Products.FirstOrDefault(x=> x.ProductId == id);  
+            return context.Products
+                .Include(p => p.Category)
+                .FirstOrDefault(x=> x.ProductId == id);  
         }
 
         public IEnumerable<Product> GetProducts(Expression<Func<Product, bool>> expression)
         {
-            return context.Products.Where(expression);
+            return context.Products.Where(expression)
+                .Include(x => x.Category);
         }
 
         public void Create(Product product)

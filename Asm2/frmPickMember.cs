@@ -23,11 +23,12 @@ namespace Asm2
 
         private void frmPickMember_Load(object sender, EventArgs e)
         {
-            IEnumerable<Member> list = MemberRepository.GetMembers();
+            IEnumerable<Member> list = MemberRepository.GetMembers(x=> x.MemberId !=null);
             source = new BindingSource();
-            source.DataSource = list;
+            source.DataSource = list.ToList();
             dgvMembers.DataSource = null;
             dgvMembers.DataSource = source;
+            dgvMembers.ReadOnly = true ;
             btnSelect.Enabled = true;
         }
 

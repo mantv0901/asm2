@@ -57,7 +57,7 @@ namespace Asm2
             var a = dgvOrders.Rows[index];
             var list = a.Cells;
             int ID = int.Parse(list[0].Value.ToString());
-            orderDetailRepository.Delete(ID);
+            //orderDetailRepository.Delete(ID);
             orderRepository.Delete(ID);
             LoadOrderList(orderRepository.GetAllOrders());
         }

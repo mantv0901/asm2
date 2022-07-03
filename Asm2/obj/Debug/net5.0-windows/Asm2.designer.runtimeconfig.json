@@ -6,7 +6,7 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\Cuong\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\acern\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\acern\\.nuget\\packages"
     ],
     "configProperties": {
