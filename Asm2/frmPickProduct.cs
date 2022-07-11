@@ -28,7 +28,7 @@ namespace Asm2
 
         IProductRepository productRepository = new ProductRepository();
 
-        List<Product> products = new List<Product>();
+        List<Product> product = new List<Product>();
 
         IOrderDetailRepository orderDetailRepository = new OrderDetailRepository();
         IOrderRepository orderRepository = new OrderRepository();
@@ -43,7 +43,7 @@ namespace Asm2
 
         private void frmPickProduct_Load(object sender, EventArgs e)
         {
-            var products = productRepository.GetProducts(x=> x.ProductId!= null).ToList();
+            var products = productRepository.GetAllProduct(x=> x.ProductId!= null).ToList();
             this.products = products;
             source = new BindingSource();
             source.DataSource = products;

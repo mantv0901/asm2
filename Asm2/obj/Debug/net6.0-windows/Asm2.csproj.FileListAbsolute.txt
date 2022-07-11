@@ -1,0 +1,13 @@
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.csproj.AssemblyReference.cache
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\SaleManagerment.Form1.resources
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.frmAdmin.resources
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.frmLogin.resources
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.frmMember.resources
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.frmOrderManagement.resources
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.frmPickMember.resources
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.frmPickProduct.resources
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.csproj.GenerateResource.cache
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.AssemblyInfoInputs.cache
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.AssemblyInfo.cs
+D:\FPT\PRN211\asm2-main\Asm2\obj\Debug\net6.0-windows\Asm2.csproj.CoreCompileInputs.cache

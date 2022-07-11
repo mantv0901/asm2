@@ -6,47 +6,33 @@ using System.Threading.Tasks;
 using BusinessLayer.Models;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
+using DataAcess.DAO;
 
 namespace DataAccess.Repository
 {
-    public class ProductRepository:IProductRepository
+    public class ProductRepository : IProductRepository
     {
-        private PRN211_DB_ASMContext context;
-        public ProductRepository()
+
+        public bool DeleteProduct(int id)
         {
-            context = new PRN211_DB_ASMContext();
-        }
-        public Product GetProduct(int id)
-        {
-            return context.Products
-                .Include(p => p.Category)
-                .FirstOrDefault(x=> x.ProductId == id);  
+            return ProductDAO.Instance.Delete(id);
         }
 
-        public IEnumerable<Product> GetProducts(Expression<Func<Product, bool>> expression)
+        public bool CreateProduct(Product product)
         {
-            return context.Products.Where(expression)
-                .Include(x => x.Category);
+            return ProductDAO.Instance.Create(product);
         }
 
-        public void Create(Product product)
+
+        public List<Product> GetAllProduct()
         {
-            context.Products.Add(product);
+            return ProductDAO.Instance.GetAllProduct();
         }
 
-        public void Update(Product product)
+        public bool UpdateProduct(Product product)
         {
-            context.Update(product);
-            context.SaveChanges();
+            return ProductDAO.Instance.Update(product);
         }
 
-        public void Delete(int id)
-        {
-            Product product = GetProduct(id);
-            product.Status = false;
-            Update(product);    
-        }
-
-       
     }
 }

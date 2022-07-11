@@ -1,35 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\Asm2\\Asm2.csproj": {}
+    "D:\\FPT\\PRN211\\asm2-main\\Asm2\\Asm2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\Asm2\\Asm2.csproj": {
+    "D:\\FPT\\PRN211\\asm2-main\\Asm2\\Asm2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\Asm2\\Asm2.csproj",
+        "projectUniqueName": "D:\\FPT\\PRN211\\asm2-main\\Asm2\\Asm2.csproj",
         "projectName": "Asm2",
-        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\Asm2\\Asm2.csproj",
-        "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\Asm2\\obj\\",
+        "projectPath": "D:\\FPT\\PRN211\\asm2-main\\Asm2\\Asm2.csproj",
+        "packagesPath": "C:\\Users\\PhongNha\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRN211\\asm2-main\\Asm2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PhongNha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0-windows7.0": {
-            "targetAlias": "net5.0-windows",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\DataAccess\\DataAccess.csproj"
+              "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "D:\\FPT\\PRN211\\asm2-main\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\FPT\\PRN211\\asm2-main\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -41,8 +48,8 @@
         }
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -69,21 +76,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\PhongNha\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PhongNha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,36 +152,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\DataAccess\\DataAccess.csproj": {
+    "D:\\FPT\\PRN211\\asm2-main\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\FPT\\PRN211\\asm2-main\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\DataAccess\\obj\\",
+        "projectPath": "D:\\FPT\\PRN211\\asm2-main\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PhongNha\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\PRN211\\asm2-main\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PhongNha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\Asm2\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\FPT\\PRN211\\asm2-main\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -182,8 +197,22 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.0-preview3.22168.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22301.12, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22301.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -199,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

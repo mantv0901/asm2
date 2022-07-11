@@ -17,7 +17,7 @@ namespace DataAccess.Repository
             context = new PRN211_DB_ASMContext();
         }
 
-        public Member CheckLogin(string email,string password)
+        public Member CheckLogin(string email, string password)
         {
             return context.Members.FirstOrDefault(m => m.Email == email && m.Password == password);
         }
@@ -30,14 +30,14 @@ namespace DataAccess.Repository
 
         public void Delete(int id)
         {
-            Member member = context.Members.FirstOrDefault(x=> x.MemberId == id);
+            Member member = context.Members.FirstOrDefault(x => x.MemberId == id);
             member.Status = false;
             Update(member);
         }
 
         public Member GetMember(int id)
         {
-            return context.Members.FirstOrDefault(x=> x.MemberId == id);
+            return context.Members.FirstOrDefault(x => x.MemberId == id);
         }
 
         public IEnumerable<Member> GetMembers(Expression<Func<Member, bool>> ex)

@@ -11,10 +11,9 @@ namespace DataAccess.Repository
 {
     public interface IProductRepository
     {
-        Product GetProduct(int id);
-        IEnumerable<Product> GetProducts(Expression<Func<Product, bool>> expression);
-        void Create(Product product);
-        void Update(Product product);
-        void Delete(int id);   
+        bool CreateProduct(Product product);
+        bool UpdateProduct(Product product);
+        bool DeleteProduct(int id);
+        List<Product> GetAllProduct();
     }
 }

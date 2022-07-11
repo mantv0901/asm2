@@ -1,0 +1,7 @@
+{
+  {
+    "ConnectionStrings": {
+      "FptEduDBConn": "Server=(local); uid=sa;pwd=nhapvpse150408;database=PRN211_DB_ASM;TrustServerCertificate=True"
+    }
+  }
+}
